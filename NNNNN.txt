@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    int a, b, c, d;
+    printf("Enter a:");
+    scanf("%d", &a);
+    printf("Enter b:");
+    scanf("%d", &b);
+    printf("Enter c:");
+    scanf("%d", &c);
+    printf("Enter d:");
+    scanf("%d", &d);
+    if((a<=c && c<=b) || (a<=d && d<=b)){
+        printf("True");
+    }else{
+        printf("False");
+    }
+    return 0;
+}
